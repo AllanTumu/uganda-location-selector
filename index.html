@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uganda Location Selector</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        select { margin-bottom: 1em; padding: 0.5em; }
+        #results { margin-top: 1em; padding: 1em; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1>Uganda Location Selector</h1>
+
+    <div>
+        <label for="districts">District:</label>
+        <select id="districts" disabled>
+            <option>Loading...</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="constituencies">Constituency:</label>
+        <select id="constituencies" disabled>
+            <option>Select a district first</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="subcounties">Sub-county:</label>
+        <select id="subcounties" disabled>
+            <option>Select a constituency first</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="electoral-areas">Electoral Area:</label>
+        <select id="electoral-areas" disabled>
+            <option>Select a sub-county first</option>
+        </select>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="uganda-location-selector.js"></script>
+    <script src="example.js"></script>
+</body>
+</html>

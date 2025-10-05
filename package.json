@@ -1,0 +1,37 @@
+{
+  "name": "@qa-green-coder/uganda-location-selector",
+  "version": "1.0.6",
+  "description": "A comprehensive JavaScript library for hierarchical location selection in Uganda, built from official Uganda Electoral Commission data with 222 districts, 427 constituencies, 1,881 sub-counties, and 3,454 electoral areas.",
+  "main": "uganda-location-selector.js",
+  "scripts": {
+    "serve": "python3 -m http.server 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uganda",
+    "location",
+    "selector",
+    "electoral",
+    "geocoding",
+    "administrative",
+    "districts",
+    "constituencies"
+  ],
+  "author": "Allan Tumuhimbise",
+  "license": "MIT",
+  "files": [
+    "uganda-location-selector.js",
+    "uganda_electoral_data.json",
+    "README.md",
+    "index.html",
+    "example.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanTumu/uganda-location-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllanTumu/uganda-location-selector/issues"
+  },
+  "homepage": "https://github.com/AllanTumu/uganda-location-selector#readme"
+}
